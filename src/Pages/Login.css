@@ -1,0 +1,124 @@
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.login-form {
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  
+ 
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form div {
+  margin-bottom: 15px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form .options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form .social-login {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form .social-login button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.image-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+@media (max-width: 480px) {
+  .login-form {
+    padding: 15px;
+  }
+
+  .login-form input {
+    width: 95%;
+    padding: 8px;
+  }
+
+  .login-form button {
+    padding: 8px;
+  }
+
+  .login-form .social-login button {
+    padding: 8px;
+  }
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .login-form {
+    padding: 20px;
+  }
+
+  .login-form input {
+    padding: 10px;
+  }
+
+  .login-form button {
+    padding: 10px;
+  }
+
+  .login-form .social-login button {
+    padding: 10px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .login-form {
+    padding: 20px;
+  }
+}
